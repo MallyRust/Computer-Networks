@@ -63,8 +63,11 @@ There are five layers in the internet protocol stack
 - **Application layer** - responsible for communication between applications running on two different end systems. The protocols used at the application layer include:
   - ((HTTP): for transferring HTML web documents,(FTP): for transferring files,(SMTP): for transferring e-mail messages,(DNS): for translation of human-friendly domain names into IP addresses)
  - **Transport layer** - responsible for collecting the application layer message from the relevant end-point and transferring it to the network layer to be communicated over the network. The two important protocols used in the transport layer are:
-  - Transmission Control Protocol (TCP): for reliable and connection-oriented data transfer
-  - User Datagram Protocol (UDP): for fast, unreliable, and connection-less data transfer
+    - Transmission Control Protocol (TCP): for reliable and connection-oriented data transfer
+    - User Datagram Protocol (UDP): for fast, unreliable, and connection-less data transfer
 - **Network layer** - responsible for transferring data from one system to another on the network. The main protocol used at the network layer to transfer data is Internet Protocol (IP). The data packet at the network layer is called a `datagram`.
 - **Link layer** - responsible for communication between one device and its immediate neighbor(routers, switches, or other computers). The data packet at the link layer is called a `frame`.
 - **Physical layer** - responsible for breaking the data frame into bits, converting it into a form that can be transmitted over the physical communication line, and transferring it.
+
+### OSI Reference Model
+Open System Interconnection - purpose is to show how to facilitate communication between different systems without requring changes in logic underlying software and hardware.

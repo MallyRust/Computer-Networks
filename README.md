@@ -102,3 +102,20 @@ Process: program running within a host
 - processes in different hosts communicate by exchanging messages
 
 Process sends/receives messages to/from its **socket**.A socket is an endpoint of a two-way communication link between two processes running on a network. In simpler terms, a socket is like a telephone number or an address that enables two programs or processes to communicate with each other over a network.
+
+## Web and HTTP
+HTTP stands for Hypertext Transfer Protocol, and it is the foundation of data communication on the World Wide Web. It is a protocol that defines how messages are formatted and transmitted over the internet between web servers and web clients, such as web browsers. 
+
+- **Non-persistent HTTP** - the older version of the protocol, where a new connection is established between the client and server for each HTTP request/response transaction.
+  - RTT(Round trip time) - time for a small packet to travel from client to server and back
+  
+  Non-persistent HTTP issues:
+- requires 2 RTTs per object
+- OS overhead for eachTCP connection
+- browsers often open parallel TCP connections to fetch referenced objects
+  
+- **Persistent HTTP** - a newer version of the HTTP protocol that allows for multiple requests and responses to be sent over a single connection
+  - server leaves connection open after sending response
+  - subsequent HTTP messages between same client/server sent over open connection
+  - client sends requests as soon as it encounters a referenced object
+  - as little as one RTT for all the referenced objects

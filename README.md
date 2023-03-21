@@ -71,3 +71,34 @@ There are five layers in the internet protocol stack
 
 ### OSI Reference Model
 Open System Interconnection - purpose is to show how to facilitate communication between different systems without requring changes in logic underlying software and hardware.
+
+### Application architectures
+- client-server
+- peer to peer
+  
+- Server - the one who provides requested services
+   - always-on host
+   - permanent IP address
+   - data centers for scaling
+
+- Client - the ones who request services.
+  - communicate with server
+  - may be intermittently connected
+  - may have dynamic IP addresses
+  - do not communicate directly with each other 
+ 
+ - P2P:
+   - no always-on server
+   - arbitrary end systems directly communicate
+   - peers request service from other peers, provide service in return to other peers
+   - self scalability – new peers bring new service capacity, as well as new service demands
+   - peers are intermittently connected and change IP addresses
+   - complex management
+  
+### Process Communication
+Process: program running within a host
+
+- within same host, two processes communicate using inter-process communication
+- processes in different hosts communicate by exchanging messages
+
+Process sends/receives messages to/from its **socket**.A socket is an endpoint of a two-way communication link between two processes running on a network. In simpler terms, a socket is like a telephone number or an address that enables two programs or processes to communicate with each other over a network.

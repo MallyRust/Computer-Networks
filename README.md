@@ -13,9 +13,23 @@ By Malika Rustamova
 ## Introduction to Computer Network
 - Computer Network is a set of nodes connected by communication links
 - The aim of the computer network is the sharing of resources among various devices.
+
 ### Internet
 - The Internet is a computer network that interconnects billions of computing devices 
 throughout the world.
+All communication activity in Internet governed by ***protocols***
+
+### Network edge
+***Hosts*** - clients and servers
+<br> <img src="images./edge.jpg" width=400>
+
+***Access network, physical media*** - wired, wireless communication links
+<br> <img src="images./media.jpg" width=400>
+
+***Network Core*** - interconnected routers, network of networks
+<br> <img src="images./core.jpg" width=400>
+
+
 
 ### Delays
 A network delay is the amount of time required for one packet to go from its source to a destination. It is also called the end-to-end delay, and it comprises the following 4 types of delays:

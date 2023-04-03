@@ -35,8 +35,7 @@ All communication activity in Internet governed by ***protocols***
 ***Circuit switching*** is referred to as the technology of data transfer that utilizes sending messages from one point to another. This involves sending messages from the receiver to the sender and back simultaneously
 
 
-
-### Delays
+## Performance: delays, loss and throughput
 A network delay is the amount of time required for one packet to go from its source to a destination. It is also called the end-to-end delay, and it comprises the following 4 types of delays:
 
 - Transmission delay

@@ -20,14 +20,19 @@ throughout the world.
 All communication activity in Internet governed by ***protocols***
 
 ### Network edge
-***Hosts*** - clients and servers
+**Hosts** - clients and servers
 <br> <img src="images./edge.jpg" width=400>
 
-***Access network, physical media*** - wired, wireless communication links
+**Access network, physical media** - wired, wireless communication links
 <br> <img src="images./media.jpg" width=400>
 
-***Network Core*** - interconnected routers, network of networks
+**Network Core** - interconnected routers, network of networks
 <br> <img src="images./core.jpg" width=400>
+
+***Routing and Forwarding*** are the two key network-core functions.
+
+***Packet switching*** is defined as the connectionless network where the messages are divided and grouped together and this is known as a packet. Each packet is routed from the source to the destination as individual packets. 
+***Circuit switching*** is referred to as the technology of data transfer that utilizes sending messages from one point to another. This involves sending messages from the receiver to the sender and back simultaneously
 
 
 
@@ -68,6 +73,7 @@ This delay depends on the following factors:
 - It depends on the speed of the processor.
 
 Ttotal = Dtrans + Dprop + Dqueue + Dpro
+<br> <img src="images./delays.jpg" width=400>
 
 ### Internet Protocol Stacks
 
